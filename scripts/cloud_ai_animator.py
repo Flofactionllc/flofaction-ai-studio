@@ -608,7 +608,7 @@ def main():
     parser.add_argument("--duration", type=int, default=5, help="Video duration (seconds)")
     parser.add_argument("--aspect", type=str, default="9:16", choices=["9:16", "16:9", "1:1"])
     parser.add_argument("--resolution", type=str, default="512x896", help="WxH")
-    parser.add_argument("--negative", type=str, default="", help="Negative prompt")
+    parser.add_argument("--output", type=str, help="Output file path")
     
     args = parser.parse_args()
     
@@ -617,7 +617,7 @@ def main():
     print("=" * 70)
     
     if args.tts:
-        out_file = generate_voiceover_edge(args.tts, args.voice)
+        out_file = generate_voiceover_edge(args.tts, args.voice, args.output)
         if out_file:
             print(f"SUCCESS: Voiceover generated at {out_file}")
         else:

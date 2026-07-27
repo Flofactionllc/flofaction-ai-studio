@@ -30,13 +30,13 @@ jobs:
         run: |
           mkdir -p output/final output/broadcast_reels
           echo "📝 Generating Daily Script & Audio Voiceover..."
-          python3 scripts/cloud_ai_animator.py --tts "Welcome to Flo Faction TV Network. The premiere zero-cost autonomous AI studio."
+          python3 scripts/cloud_ai_animator.py --tts "Welcome to Flo Faction TV Network. The premiere zero-cost autonomous AI studio." --output output/broadcast_reels/voiceover.mp3
           
           echo "🎥 Assembling Vertical Video Reel with FastStart..."
           ffmpeg -y -f lavfi -i testsrc=size=720x1280:rate=30 \
-            -i output/broadcast_reels/voiceover_male_authoritative_*.mp3 \
+            -i output/broadcast_reels/voiceover.mp3 \
             -c:v libx264 -pix_fmt yuv420p -preset fast -c:a aac -b:a 192k -shortest -movflags +faststart \
-            output/final/studio_commercial.mp4 || true
+            output/final/studio_commercial.mp4
 
       - name: Dispatch HITL Telegram Approval Gateway (24h Cloud Listener)
         env:
