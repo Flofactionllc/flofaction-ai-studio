@@ -1,0 +1,50 @@
+name: Flo Faction 24/7 Autonomous Daily Production & HITL Gateway
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # Runs daily at 12:00 PM UTC (8:00 AM EST)
+  workflow_dispatch: # Allows manual trigger anytime from GitHub UI
+
+jobs:
+  run-daily-production:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies & FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg sqlite3
+          pip install requests edge-tts aiohttp aiofiles python-dotenv
+
+      - name: Execute Daily Content & Video Generation
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          mkdir -p output/final output/broadcast_reels
+          echo "📝 Generating Daily Script & Audio Voiceover..."
+          python3 scripts/cloud_ai_animator.py --tts "Welcome to Flo Faction TV Network. The premiere zero-cost autonomous AI studio."
+          
+          echo "🎥 Assembling Vertical Video Reel with FastStart..."
+          ffmpeg -y -f lavfi -i testsrc=size=720x1280:rate=30 \
+            -i output/broadcast_reels/voiceover_male_authoritative_*.mp3 \
+            -c:v libx264 -pix_fmt yuv420p -preset fast -c:a aac -b:a 192k -shortest -movflags +faststart \
+            output/final/studio_commercial.mp4 || true
+
+      - name: Dispatch HITL Telegram Approval Gateway (24h Cloud Listener)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 scripts/hitl_messenger.py \
+            --video output/final/studio_commercial.mp4 \
+            --caption "🚀 Autonomous Cloud Reel Generated! Reply 'approve' or text custom edits to post." \
+            --title "24/7 Cloud Automated Dispatch" \
+            --timeout 15 || true

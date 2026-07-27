@@ -1,0 +1,28 @@
+# Flo Faction Pro Video Engine Requirements
+# Hardware acceleration + AI video APIs + Studio audio
+
+# Core
+aiohttp>=3.9
+requests>=2.31
+
+# FFmpeg is system dependency - install via: brew install ffmpeg (includes VideoToolbox)
+# npm install -g @ffmpeg-installer/ffmpeg @ffprobe-installer/ffprobe
+
+# AI Video APIs (fal.ai)
+# fal-client is optional - we use direct REST API
+
+# Audio
+# edge-tts for fallback (pip install edge-tts)
+# ElevenLabs via REST API (no SDK needed)
+
+# Local ML (optional - for fallback generation)
+# torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# diffusers transformers accelerate safetensors
+
+# Video processing
+opencv-python>=4.8
+moviepy>=1.0
+
+# Utilities
+python-dotenv>=1.0
+tqdm>=4.66

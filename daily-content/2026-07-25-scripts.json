@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-25",
+  "timestamp": "2026-07-25T19:17:33.459637",
+  "scripts": [
+    {
+      "id": "script_2026-07-25_01",
+      "title": "Autonomous AI Agents Revolutionizing Business Operations",
+      "platform": "tiktok",
+      "preset": "social_vertical",
+      "narration": "Meet the next generation of autonomous AI agents. Scaling operations, running multi-agent workflows, and executing tasks 24/7 without friction.",
+      "visual_prompt": "Futuristic cinematic shot of neural network glowing threads framing a high-tech modern AI operations center, 4K film quality",
+      "audio_preset": "tech_beats",
+      "hashtags": [
+        "#AutonomousAI",
+        "#TechInnovation",
+        "#AIAgents",
+        "#FutureOfWork"
+      ]
+    },
+    {
+      "id": "script_2026-07-25_02",
+      "title": "Flo Faction Film-Studio Quality AI Video Pipeline",
+      "platform": "youtube_shorts",
+      "preset": "youtube_cinema",
+      "narration": "Experience movie-quality AI video creation. Powered by MiniMax Hailuo, Leonardo Motion, and 4K film-grade color grading.",
+      "visual_prompt": "Cinematic 35mm film shot of a cyberpunk metropolis skyline at night with neon lights reflecting on rain-soaked asphalt",
+      "audio_preset": "corporate_cinematic",
+      "hashtags": [
+        "#AIVideo",
+        "#Filmmaking",
+        "#CinematicAI",
+        "#FloFaction"
+      ]
+    },
+    {
+      "id": "script_2026-07-25_03",
+      "title": "Smart Insurance & Asset Protection Solutions",
+      "platform": "facebook_reels",
+      "preset": "studio_commercial",
+      "narration": "Protecting what matters most with smart, data-driven insurance coverage tailored for peace of mind.",
+      "visual_prompt": "Warm cinematic commercial lighting of a happy family relaxing in a sunlit modern home garden",
+      "audio_preset": "lifestyle_acoustic",
+      "hashtags": [
+        "#InsuranceProtection",
+        "#FamilySecurity",
+        "#FloFactionInsurance"
+      ]
+    }
+  ]
+}

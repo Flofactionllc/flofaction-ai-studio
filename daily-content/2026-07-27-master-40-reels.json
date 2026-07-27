@@ -1,0 +1,654 @@
+{
+  "date": "2026-07-27",
+  "target_rate": "40 reels/day per account",
+  "brand_identity": "Flo Faction TV Network",
+  "divisions_included": [
+    "wealth_insurance",
+    "phone_arbitrage",
+    "ai_automation",
+    "flofaction_tv",
+    "comedy_variety"
+  ],
+  "reels": [
+    {
+      "slot": 1,
+      "division": "wealth_insurance",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #1 [WEALTH_INSURANCE]: How an IUL locks in market gains with zero downside risk",
+      "topic": "How an IUL locks in market gains with zero downside risk",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 2,
+      "division": "phone_arbitrage",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #2 [PHONE_ARBITRAGE]: How Flo Faction Arbitrage generates daily cashflow buying used phones",
+      "topic": "How Flo Faction Arbitrage generates daily cashflow buying used phones",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 3,
+      "division": "ai_automation",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #3 [AI_AUTOMATION]: How 15 autonomous AI agents run Flo Faction 24/7",
+      "topic": "How 15 autonomous AI agents run Flo Faction 24/7",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 4,
+      "division": "flofaction_tv",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #4 [FLOFACTION_TV]: Flo Faction TV: Premiering tonight's masterclass episode",
+      "topic": "Flo Faction TV: Premiering tonight's masterclass episode",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 5,
+      "division": "comedy_variety",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #5 [COMEDY_VARIETY]: When the AI agent passes your job interview and takes your seat",
+      "topic": "When the AI agent passes your job interview and takes your seat",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 6,
+      "division": "wealth_insurance",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #6 [WEALTH_INSURANCE]: Tax-free wealth strategy vs traditional 401k traps",
+      "topic": "Tax-free wealth strategy vs traditional 401k traps",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 7,
+      "division": "phone_arbitrage",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #7 [PHONE_ARBITRAGE]: Scoring phones against Gemstar pricebook for maximum profit",
+      "topic": "Scoring phones against Gemstar pricebook for maximum profit",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 8,
+      "division": "ai_automation",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #8 [AI_AUTOMATION]: Eliminating manual work with OpenClaw & Hermes workflows",
+      "topic": "Eliminating manual work with OpenClaw & Hermes workflows",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 9,
+      "division": "flofaction_tv",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #9 [FLOFACTION_TV]: Inside Flo Faction Network: Good Credit Isn't A Plan (Full Breakdown)",
+      "topic": "Inside Flo Faction Network: Good Credit Isn't A Plan (Full Breakdown)",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 10,
+      "division": "comedy_variety",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #10 [COMEDY_VARIETY]: Office banter: Pretending to be CEO when the automated system emails your boss",
+      "topic": "Office banter: Pretending to be CEO when the automated system emails your boss",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 11,
+      "division": "wealth_insurance",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #11 [WEALTH_INSURANCE]: Protecting your family's future with Flo Faction Insurance",
+      "topic": "Protecting your family's future with Flo Faction Insurance",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 12,
+      "division": "phone_arbitrage",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #12 [PHONE_ARBITRAGE]: Turning local trade-ins into instant cleared PayPal deposits",
+      "topic": "Turning local trade-ins into instant cleared PayPal deposits",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 13,
+      "division": "ai_automation",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #13 [AI_AUTOMATION]: Why autonomous agent fleets beat standard SaaS tools",
+      "topic": "Why autonomous agent fleets beat standard SaaS tools",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 14,
+      "division": "flofaction_tv",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #14 [FLOFACTION_TV]: Building an unstoppable multi-channel media ecosystem",
+      "topic": "Building an unstoppable multi-channel media ecosystem",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 15,
+      "division": "comedy_variety",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #15 [COMEDY_VARIETY]: When your smart fridge starts negotiating crypto trades at 3 AM",
+      "topic": "When your smart fridge starts negotiating crypto trades at 3 AM",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 16,
+      "division": "wealth_insurance",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #16 [WEALTH_INSURANCE]: How smart wealth strategist Paul Edwards structures tax-free growth",
+      "topic": "How smart wealth strategist Paul Edwards structures tax-free growth",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 17,
+      "division": "phone_arbitrage",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #17 [PHONE_ARBITRAGE]: Step-by-step phone buyback arbitrage breakdown",
+      "topic": "Step-by-step phone buyback arbitrage breakdown",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 18,
+      "division": "ai_automation",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #18 [AI_AUTOMATION]: Inside the Flo Faction self-healing architecture",
+      "topic": "Inside the Flo Faction self-healing architecture",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 19,
+      "division": "flofaction_tv",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #19 [FLOFACTION_TV]: Flo Faction TV Network Showcase & Special Feature",
+      "topic": "Flo Faction TV Network Showcase & Special Feature",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 20,
+      "division": "comedy_variety",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #20 [COMEDY_VARIETY]: Tech vs Reality: Trying to automate your life and causing chaos",
+      "topic": "Tech vs Reality: Trying to automate your life and causing chaos",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 21,
+      "division": "wealth_insurance",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #21 [WEALTH_INSURANCE]: How an IUL locks in market gains with zero downside risk",
+      "topic": "How an IUL locks in market gains with zero downside risk",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 22,
+      "division": "phone_arbitrage",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #22 [PHONE_ARBITRAGE]: How Flo Faction Arbitrage generates daily cashflow buying used phones",
+      "topic": "How Flo Faction Arbitrage generates daily cashflow buying used phones",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 23,
+      "division": "ai_automation",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #23 [AI_AUTOMATION]: How 15 autonomous AI agents run Flo Faction 24/7",
+      "topic": "How 15 autonomous AI agents run Flo Faction 24/7",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 24,
+      "division": "flofaction_tv",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #24 [FLOFACTION_TV]: Flo Faction TV: Premiering tonight's masterclass episode",
+      "topic": "Flo Faction TV: Premiering tonight's masterclass episode",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 25,
+      "division": "comedy_variety",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #25 [COMEDY_VARIETY]: Family dinner debate: Explaining autonomous income to your relatives",
+      "topic": "Family dinner debate: Explaining autonomous income to your relatives",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 26,
+      "division": "wealth_insurance",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #26 [WEALTH_INSURANCE]: Tax-free wealth strategy vs traditional 401k traps",
+      "topic": "Tax-free wealth strategy vs traditional 401k traps",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 27,
+      "division": "phone_arbitrage",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #27 [PHONE_ARBITRAGE]: Scoring phones against Gemstar pricebook for maximum profit",
+      "topic": "Scoring phones against Gemstar pricebook for maximum profit",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 28,
+      "division": "ai_automation",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #28 [AI_AUTOMATION]: Eliminating manual work with OpenClaw & Hermes workflows",
+      "topic": "Eliminating manual work with OpenClaw & Hermes workflows",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 29,
+      "division": "flofaction_tv",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #29 [FLOFACTION_TV]: Inside Flo Faction Network: Good Credit Isn't A Plan (Full Breakdown)",
+      "topic": "Inside Flo Faction Network: Good Credit Isn't A Plan (Full Breakdown)",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 30,
+      "division": "comedy_variety",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #30 [COMEDY_VARIETY]: When the AI agent passes your job interview and takes your seat",
+      "topic": "When the AI agent passes your job interview and takes your seat",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 31,
+      "division": "wealth_insurance",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #31 [WEALTH_INSURANCE]: Protecting your family's future with Flo Faction Insurance",
+      "topic": "Protecting your family's future with Flo Faction Insurance",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 32,
+      "division": "phone_arbitrage",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #32 [PHONE_ARBITRAGE]: Turning local trade-ins into instant cleared PayPal deposits",
+      "topic": "Turning local trade-ins into instant cleared PayPal deposits",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 33,
+      "division": "ai_automation",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #33 [AI_AUTOMATION]: Why autonomous agent fleets beat standard SaaS tools",
+      "topic": "Why autonomous agent fleets beat standard SaaS tools",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 34,
+      "division": "flofaction_tv",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #34 [FLOFACTION_TV]: Building an unstoppable multi-channel media ecosystem",
+      "topic": "Building an unstoppable multi-channel media ecosystem",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 35,
+      "division": "comedy_variety",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #35 [COMEDY_VARIETY]: Office banter: Pretending to be CEO when the automated system emails your boss",
+      "topic": "Office banter: Pretending to be CEO when the automated system emails your boss",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 36,
+      "division": "wealth_insurance",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #36 [WEALTH_INSURANCE]: How smart wealth strategist Paul Edwards structures tax-free growth",
+      "topic": "How smart wealth strategist Paul Edwards structures tax-free growth",
+      "featured_product": "Flo Faction Insurance (IULs, Annuities, Wealth Strategy)",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Link in bio to get your free Flo Faction Insurance quote today.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#wealthinsurance",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 37,
+      "division": "phone_arbitrage",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #37 [PHONE_ARBITRAGE]: Step-by-step phone buyback arbitrage breakdown",
+      "topic": "Step-by-step phone buyback arbitrage breakdown",
+      "featured_product": "Flo Faction Arbitrage (Gemstar Buyback Program)",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "DM us 'ARBITRAGE' to learn how to flip phones for daily cashflow.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#phonearbitrage",
+        "#Shorts",
+        "#Business"
+      ]
+    },
+    {
+      "slot": 38,
+      "division": "ai_automation",
+      "platform": "ig_reels",
+      "title": "Flo Faction TV #38 [AI_AUTOMATION]: Inside the Flo Faction self-healing architecture",
+      "topic": "Inside the Flo Faction self-healing architecture",
+      "featured_product": "Flo Faction AI Automation Consulting & OpenClaw",
+      "format": "9:16 vertical reel, high aesthetic, clean typography",
+      "cta": "Want to automate your business? Visit flofaction.com for a free consultation.",
+      "hashtags": [
+        "#FloFactionTV",
+        "#aiautomation",
+        "#Explore",
+        "#WealthStrategy"
+      ]
+    },
+    {
+      "slot": 39,
+      "division": "flofaction_tv",
+      "platform": "tiktok",
+      "title": "Flo Faction TV #39 [FLOFACTION_TV]: Flo Faction TV Network Showcase & Special Feature",
+      "topic": "Flo Faction TV Network Showcase & Special Feature",
+      "featured_product": "Flo Faction TV Network Exclusives",
+      "format": "9:16 vertical reel, fast-paced hook, trending audio",
+      "cta": "Subscribe to Flo Faction TV Network on YouTube for full episodes!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#flofactiontv",
+        "#fyp",
+        "#trending"
+      ]
+    },
+    {
+      "slot": 40,
+      "division": "comedy_variety",
+      "platform": "youtube_shorts",
+      "title": "Flo Faction TV #40 [COMEDY_VARIETY]: When your smart fridge starts negotiating crypto trades at 3 AM",
+      "topic": "When your smart fridge starts negotiating crypto trades at 3 AM",
+      "featured_product": "Flo Faction TV Comedy Skits",
+      "format": "9:16 vertical short, educational value, bold captions",
+      "cta": "Follow Flo Faction TV Network for daily animated comedy and relatable skits!",
+      "hashtags": [
+        "#FloFactionTV",
+        "#comedyvariety",
+        "#Shorts",
+        "#Business"
+      ]
+    }
+  ]
+}

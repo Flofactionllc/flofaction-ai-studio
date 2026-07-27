@@ -1,0 +1,17 @@
+# =============================================================================
+# RENDER.COM 100% FREE CLOUD BLUEPRINT
+# Deploys Flo Faction OpenClaw / HITL Agent Fleet to Render's Free Tier ($0/mo)
+# =============================================================================
+services:
+  - type: worker
+    name: flofaction-autonomous-agent
+    env: python
+    buildCommand: pip install -r requirements.txt || pip install requests edge-tts aiohttp aiofiles python-dotenv
+    startCommand: python3 scripts/hitl_messenger.py --video output/final/studio_commercial.mp4 --caption "Render Cloud Agent Online" --title "Render 24/7 Bot" --timeout 86400
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: FREE_GATEWAY
+        value: "http://127.0.0.1:8088/v1"
