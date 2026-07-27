@@ -1,50 +1,43 @@
-name: Flo Faction 24/7 Autonomous Daily Production & HITL Gateway
+name: Flo Faction 24-7 Autonomous Daily Production
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *' # Runs daily at 12:00 PM UTC (8:00 AM EST)
-  workflow_dispatch: # Allows manual trigger anytime from GitHub UI
+    - cron: '0 12 * * *'
+
+permissions:
+  contents: read
 
 jobs:
-  run-daily-production:
+  daily-production:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code Repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Set up Python Environment
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install Dependencies & FFmpeg
+      - name: Install System & Python Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg sqlite3
           pip install requests edge-tts aiohttp aiofiles python-dotenv
 
-      - name: Execute Daily Content & Video Generation
+      - name: Generate Voiceover & Reel
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           mkdir -p output/final output/broadcast_reels
-          echo "📝 Generating Daily Script & Audio Voiceover..."
-          python3 scripts/cloud_ai_animator.py --tts "Welcome to Flo Faction TV Network. The premiere zero-cost autonomous AI studio." --output output/broadcast_reels/voiceover.mp3
-          
-          echo "🎥 Assembling Vertical Video Reel with FastStart..."
-          ffmpeg -y -f lavfi -i testsrc=size=720x1280:rate=30 \
-            -i output/broadcast_reels/voiceover.mp3 \
-            -c:v libx264 -pix_fmt yuv420p -preset fast -c:a aac -b:a 192k -shortest -movflags +faststart \
-            output/final/studio_commercial.mp4
+          python3 scripts/cloud_ai_animator.py --tts "Welcome to Flo Faction TV Network. Zero cost cloud studio." --output output/broadcast_reels/voiceover.mp3
+          ffmpeg -y -f lavfi -i testsrc=size=720x1280:rate=30 -i output/broadcast_reels/voiceover.mp3 -c:v libx264 -pix_fmt yuv420p -preset fast -c:a aac -b:a 192k -shortest -movflags +faststart output/final/studio_commercial.mp4
 
-      - name: Dispatch HITL Telegram Approval Gateway (24h Cloud Listener)
+      - name: Dispatch Telegram Approval Request
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python3 scripts/hitl_messenger.py \
-            --video output/final/studio_commercial.mp4 \
-            --caption "🚀 Autonomous Cloud Reel Generated! Reply 'approve' or text custom edits to post." \
-            --title "24/7 Cloud Automated Dispatch" \
-            --timeout 15 || true
+          python3 scripts/hitl_messenger.py --video output/final/studio_commercial.mp4 --caption "🚀 Autonomous Cloud Reel Generated from GitHub Actions!" --title "GitHub Cloud Dispatch" --timeout 15 || true
